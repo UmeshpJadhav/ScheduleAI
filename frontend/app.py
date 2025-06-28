@@ -7,7 +7,7 @@ st.title("SchedulAI")
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
 
-backend_url = "https://schedulai-nxko.onrender.com/chat" 
+backend_url = "https://scheduleai-hej2.onrender.com/chat" 
 
 
 form_key = st.session_state.get("form_key", 0)
