@@ -5,7 +5,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.schema.messages import HumanMessage, AIMessage
 import re
 from datetime import datetime, timedelta, time, date
-from calendar_utils import (
+from backend.calendar_utils import (
     suggest_available_slots,
     get_calendar_service,
     book_slot,
