@@ -2,14 +2,14 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional, List, Dict
 from datetime import datetime, date, time, timedelta
-from calendar_utils import (
+from backend.calendar_utils import (
     suggest_available_slots,
     book_slot,
     check_calendar_events,
     get_calendar_service,
     extract_date_time
 )
-from agent import process_user_message
+from backend.agent import process_user_message
 
 app = FastAPI()
 
